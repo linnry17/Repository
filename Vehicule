@@ -1,0 +1,39 @@
+class Vehicule {
+    
+    constructor() {
+	this.name = "vehicule";
+    }
+    
+}
+
+class Voiture  extends Vehicule {
+    
+    constructor() {
+	super();
+	this.name = "voiture";
+	this.roues = 4;
+	this.moteur = {
+	    puissance: 60
+	};
+	    
+    }
+
+}
+
+class Sportive extends Voiture {
+    constructor(){
+	super();
+	this.name = Sportive
+	this.moteur.puissance = 450;
+    }
+}
+
+const test_voiture = () => {
+    console.log("test vehicule")
+    
+    let test = new Voiture () ;
+
+    console.log("test.name");
+    
+    let test2 = new Voiture ();
+};
