@@ -12,8 +12,39 @@ class Voiture  extends Vehicule {
 	super();
 	this.name = "voiture";
 	this.roues = 4;
+	this.porte = 5
 	this.moteur = {
 	    puissance: 60
+	};
+	    
+    }
+
+}
+
+class Moto extends Vehicule {
+    
+    constructor() {
+	super();
+	this.name = "moto";
+	this.roues = 2;
+	this.porte = 0
+	this.moteur = {
+	    puissance: 50
+	};
+	    
+    }
+
+}
+
+class Camion  extends Vehicule {
+    
+    constructor() {
+	super();
+	this.name = "camion";
+	this.roues = 8;
+	this.porte = 3
+	this.moteur = {
+	    puissance: 300
 	};
 	    
     }
@@ -23,7 +54,9 @@ class Voiture  extends Vehicule {
 class Sportive extends Voiture {
     constructor(){
 	super();
-	this.name = Sportive
+	this.name = "sportive"
+	this=roues = 4
+	this porte = 3
 	this.moteur.puissance = 450;
     }
 }
